@@ -1,0 +1,107 @@
+#flex1{
+width: 100%;
+height: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.b{
+    width: 200px;
+    height: 100px;
+    background-color: darkmagenta;
+    margin: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.A1{
+    background-color: rgb(39, 13, 13);
+    width: 100%;
+    height: 800px;
+
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.para{
+    background-color: white;
+    width: 150px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin: 20px;
+}
+.text{
+    color: white;
+    font-size: 35px;
+    margin: 20px;
+}
+#guess{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+.line {
+    width:100%;
+    margin-top: 10%;
+    height: 5px;
+    background-color: white;
+}
+.choose{
+    width: 200px;
+    height: 200px;
+    font-size: 50px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    top: 28%;
+    left: 43%;
+}
+input{
+    width: 250px;
+    height: 100px;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    background-color: rgb(39, 13, 13);
+    border: 5px solid white;
+    margin: 20px;
+    
+}
+#cl{
+    width: 180px;
+    height: 80px;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 40px;
+   
+}
+.start{
+    color: white;
+    font-size: 35px;
+    margin-top:10px;
+    margin-bottom: 70px;
+   
+}
+h2{
+    color: white;
+    margin: 30px;
+}
+.Aa{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    align-items: center;
+    justify-content: space-around;
+}

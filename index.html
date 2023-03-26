@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <h1>Q1. Write the code to access element which is having id as "text"</h1>
+    <h4 id="text">Welcome to My website</h4>
+    <button onclick="callme()">Submit</button>
+    <pre>let text = document.getElementById('text');
+        function callme(){
+            console.log(text.innerHTML)
+        }</pre>
+    <h1>Q2. Write the code to access element which is having tag as "h1"</h1>
+    <p>This is My first DOM</p>
+    <button onclick="myfun()">Submit</button>
+    <pre>let para = document.getElementsByTagName('p');
+        function myfun(){
+            console.log(para[0].innerHTML);
+        }</pre>
+    <h1>Q3. Write the code to access element which is having class as "box"</h1>
+    <ol>
+        <li class="list">Mango</li>
+        <li class="list">Orange</li>
+        <li class="list">Apple</li>
+    </ol>
+    <button onclick="mylist()">Submit</button>
+    <pre>let food = document.getElementsByClassName('list')
+        function mylist(){
+            console.log(food[0].innerHTML)
+        }</pre>
+    <h1>Q4. Hello
+
+    Change the heading from ""Hello"" to ""Hello World"" using DOM functions"</h1>
+    <h2>Hello</h2>
+    <button onclick="myform()">Submit</button>
+    <pre>let head = document.getElementsByTagName('h1');
+        function myform(){
+            
+          head[0].innerHTML = "Hello world";
+        }</pre>
+    <h1>Q5. Create an HTML page having content as Hello world and a button named Replace Text. When user will click on this button page content should be changed to "Welcome to Elevation academy"</h1>
+    <h1 id="mytxt">Hello, this is javascript</h1>
+    <button onclick="mytext()">Replace text</button>
+    <pre>let txt = document.getElementById('mytxt');
+        function mytext(){
+            txt.innerHTML = "welcome to Elevation academy"
+        }
+        </pre>
+    <h1 id="hy">Q6. Hello </h1>
+
+    Add one style attribute and give text color as red and id attribute and give the id value as ""heading"" in the above given h1 tag using DOM functions"</h1>
+
+    <h1>Q7. Create three cards on HTML page and arrange them using flex property in row or horizontal direction and also create button at the bottom named "Change Flex direction". When user clicks on this button, the cards arrangement should be changed to vertical direction.</h1>
+    <div id="flex1">
+        <div class="b"></div>
+        <div class="b"></div>
+        <div class="b"></div>
+        </div>
+    </div>
+    <button class="btn">Check direction</button>
+    <h1>What’s the difference between window vs document?</h1>
+    <pre>When JavaScript is executed inside the browser, the window object is the JavaScript Global object. The document object is a property of the window object.
+
+        The window object represents the browser window.
+        The document object represents the HTML document loaded in that window.
+        
+        The window object has many useful properties like the location object and the setTimeout function.</pre>
+        <h1>Write code to implement timer clock using JS -- display HH:MM:SS -- the time should keep updating every second</h1>
+    <p id="myclock">clock</p>
+    <script src="./script.js"></script>
+    <a href="./game.html">Click here to play Game</a>
+   
+
+    
+
+    
+
+    
+</body>
+</html>
